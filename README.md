@@ -2,10 +2,11 @@
 Gets a candidate phone number from stdin using Google's RE2 lib
 
 OSX install requirements:
-XCode
-Homebrew
+* XCode
+* Homebrew
 
 To make on OSX:
+```shell
 brew install re2
 brew install coreutils
 brew install libtool
@@ -14,3 +15,4 @@ brew install aclocal
 brew install automake
 cd getphone-c/Release
 make
+```
